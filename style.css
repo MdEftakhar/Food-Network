@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    margin-bottom: 80px;
+}
+h1{
+    font-size: 50px;
+    color: #575757;
+}
+p{
+    line-height: 1.5;
+}
+.text-center{
+    text-align: center;
+}
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+.align-center{
+    margin: 0 auto;
+}
+
+
+#hero-section p{
+    color: #828282;
+    font-size: 18px;
+}
+.container {
+	display: flex;
+	width: 1200px;
+	align-items: center;
+	margin: 0 auto;
+}
+.half-width{
+    width: 50%;
+}
+.width-100{
+    width: 100%;
+}
+.width-50{
+    width: 50%;
+}
+.blue-text{
+    color: #038AF6;
+}
+
+.btn {
+	background-image: linear-gradient(to right, #13b5fc,#0389f6);
+	padding: 10px 20px;
+	border-radius: 30px;
+	font-size: 21px;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* about me */
+#about-me{
+    background-image: url('images/Selected-file/Frame\ 58.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+
+}
+
+
+/* recipie */
+.recipi-item {
+	padding: 14px;
+	background: #fff;
+	margin: 15px;
+	box-shadow: 2px 10px 23px 0px rgba(0,0,0,0.24);
+	border-radius: 15px;
+}
+.recipi-item img{
+    border-radius: 15px;
+}
+.recipi-item h3 {
+	font-size: 15px;
+	
+}
+.statics {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+    background: #fff;
+	box-shadow: 3px 0px 24px 1px rgba(0,0,0,0.24);
+    padding: 50px 0;
+    border-radius: 15px;
+}
